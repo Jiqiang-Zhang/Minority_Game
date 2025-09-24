@@ -1,28 +1,30 @@
-# Example headings
+# Project Name
+DRLP-Minority-game-code
 
-## Sample Section
+## Project Description
+This project provides basic code for the paper "Dual Reinforcement Learning Synergy in Resource Allocation: Emergence of Momentum Strategy", enabling users to reproduce the relevant results presented in the article. The program can be utilized to explore the synergistic effect between two reinforcement learning policies, as discussed in the aforementioned paper.
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+## Installation Guide
+1. Ensure you have a gfortran compiler installed on your computer.
+2. Download the project code.
+3. Navigate to the project directory in the terminal.
+4. Compile the code:
+gfortran -o DMGP source_code.f90
+5. Run the program: ./DMGP
+## Usage Example
+After running the program, you will generate a text file named 'result.txt,' which contains the relation between the volatility of the capacity and the fraction of C-subpopulation under one simulation run. The resulting data is visualized in Fig.1(a).   
 
-## This heading is not unique in the file
+## Contribution Guidelines
+Contributions are welcome!
 
-TEXT 1
+## License
+This project is maintained by the Ji-Qiang Zhang Lab at Ningxia University.
 
-## This heading is not unique in the file
+## Contact Information
+For questions or suggestions, please contact the project maintainer: [zhengguozhong@snnu.edu.cn]
 
-TEXT 2
+## Issues and Feedback
+If you encounter bugs or have feature requests, please submit an issue on GitHub.
 
-# Links to the example headings above
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
-
-
-In the website https://github.com/Jiqiang-Zhang/Minority_Game/blob/main/source_code.f90, we provide the source code in Fortran to enable others to fully benefit from this research and replicate our findings. 
-Specifically, the file is named source_code.f90 contains the code that computes the volatility as a function of fc within the population. The resulting data is then visualized in Fig.1(a).  
+## Acknowledgments
+Thanks to all the developers who contributed to this project and to the third-party libraries used. 
